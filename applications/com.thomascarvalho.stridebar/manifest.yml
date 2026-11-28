@@ -1,0 +1,57 @@
+sourcecode:
+  type: git
+  location:
+    origin: https://github.com/thomascarvalho/busy-stride-bar.git
+    commit_sha: 1795f6fb271a6ab4294c07f41926257f06065537  # 0.2.3
+
+category: info-feeds
+
+short_description: "Your Strava runs and rides in colour: the week, 12 weeks, month, year, streak and last run with its PRs. No account."
+
+description: |
+  # Stride Bar
+
+  Your running and riding stats on the BUSY Bar, in colour and from your own Strava activities: the week day by day, the last 12 weeks, the month, the year, your streak, and your last run or ride with its personal records and kudos. Compatible with Strava.
+
+  ## Setup
+
+  No account to create and nothing to copy. Launch Stride Bar: the bar shows a six-letter code and an address. Open the address on your phone, type the code and tap Connect with Strava. Thirty seconds later the bar says hello and shows your stats. It stays paired across restarts.
+
+  ## Display
+
+  - **Week (orange):** the week's kilometres and a bar for each day, today in white.
+  - **12 weeks (violet):** your weekly average and the last 12 weeks as a small chart.
+  - **Month (cyan):** kilometres, climbing and hours, in turn, and a dot for every day you ran.
+  - **Year (gold):** the same for the year, and a segment for every month.
+  - **Streak (green):** how many weeks in a row with at least one run.
+  - **Last activity (pink):** distance, pace or speed, climbing, PRs in green and kudos, in turn.
+  - **Back:** each screen spelled out, the controls and the time of the last update.
+
+  When a new activity comes in, the bar shows it.
+
+  ## Controls
+
+  - **Wheel:** the next or the previous screen.
+  - **OK:** refresh now. **Hold OK:** unlink the bar, after a confirmation.
+  - **Big button:** go through the screens by themselves.
+  - **Back:** quit.
+
+  The stats are refreshed every 10 minutes and as soon as Strava announces a new activity. Running, cycling or both, optional weekly and yearly goals and auto rotate are in the settings. Stride Bar is not made by or affiliated with Strava.
+
+changelog: |
+  First release in the Apps Catalog: the week, 12 weeks, month, year, streak and last activity from your Strava activities, each screen in its own colour, paired from a phone in thirty seconds.
+
+screenshots:
+  - screenshots/week-front.png
+  - screenshots/weeks-front.png
+  - screenshots/month-front.png
+  - screenshots/year-front.png
+  - screenshots/streak-front.png
+  - screenshots/last-records-front.png
+  - screenshots/pairing-code-front.png
+
+back_screenshots:
+  - screenshots/week-back.png
+  - screenshots/month-back.png
+  - screenshots/year-back.png
+  - screenshots/last-pace-back.png
